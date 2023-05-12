@@ -107,7 +107,7 @@ class Ball : public Entity {
           block.reset(nullptr);
           blocks.erase(itr);
           paddle->increaseScore();
-          SDLLog("BLOCK size: ", blocks.size());
+//          SDLLog("BLOCK size: ", blocks.size());
         }
         return;
       }
